@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use System\Controller;
+use System\Controllers;
 
 final class Home extends Controller
 {

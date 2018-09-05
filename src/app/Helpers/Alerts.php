@@ -2,7 +2,7 @@
 
 namespace App\Helpers;
 
-use SlimSession\Helper;
+use SlimSession\Helpers;
 
 class Alerts
 {
