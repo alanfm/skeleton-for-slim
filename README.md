@@ -46,6 +46,8 @@ O padrão MVC [Model, View, Controller] consiste organizar os arquivos da aplica
 ###### Model
 Os arquivos do model devem seguir a seguinte estrutura:
 
+``src/app/Models/Usuarios.php``
+
 ```php
 <?php
 
@@ -80,9 +82,30 @@ class Usuarios extends Model
 
 As Views dessa estrutura usam o [Twig](https://twig.symfony.com/).
 
+``src/app/Views/index.twig``
+
+```html
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+      <h1>{{ title }}</h1>
+      <hr>
+      <p>{{ content }}</p>
+    </body>
+</html>
+```
+
 ###### Controller
 
 Os arquivos de Controller devem seguir a seguinte estrutura:
+
+``src/app/Controllers/Home.php``
 
 ```php
 <?php
