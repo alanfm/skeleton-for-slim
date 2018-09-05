@@ -78,7 +78,7 @@ class Usuarios extends Model
 
 ###### View
 
-As Views dessa estrutura usam o [Twig]{https://twig.symfony.com/}.
+As Views dessa estrutura usam o [Twig](https://twig.symfony.com/).
 
 ###### Controller
 
