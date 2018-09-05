@@ -27,10 +27,4 @@ class Home extends Model
 
         return $this->data;
     }
-
-    private function teste()
-    {
-        \App\Helpers\Alerts::set('success', 'Ótimo trabalho!');
-        return;
-    }
 }
