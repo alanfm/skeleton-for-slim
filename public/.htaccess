@@ -1,0 +1,2 @@
+Options -Indexes
+IndexIgnore *.css *.js *.jpg *.gif *.png *.ttf *.oft *.svg *.woff *.woff2
